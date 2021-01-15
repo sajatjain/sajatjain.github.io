@@ -71,17 +71,21 @@ padding:140px 0 120px;
 background: #f2fbfe url(../images/headBg.jpg) no-repeat center bottom;
 }
 .headText {
-margin:5rem auto;
+margin:3rem auto;
 text-align: center;
 padding-left: 1.5rem;
 padding-right: 1.5rem;
+}
+.text-lg-left {
+    margin-top: 20px;
 }
 .headText h1 {
 font-size:3.5rem;
 letter-spacing: 5px;
 font-weight: 300;
+text-align: left;
 }
-.headText h1 strong { font-weight: bold; }
+.headText h1 strong { font-weight: bold; display: block;    letter-spacing: 0; }
 .headText h4 {
 font-size: 20px;
 line-height: 32px;
@@ -222,7 +226,8 @@ background-size: cover;
 }
 
 .founder-slide {
-padding-bottom: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 8rem;
 }
 
 .footer-sec {
@@ -435,9 +440,24 @@ ul.custom-nav li.nav-item {
 
 
 @media screen and (max-width:767px) and (min-width:320px) {
-
+    .navbar {
+    padding: 1.6rem 1rem;
+}
+.basic-sec h2 {
+    font-size: 1.7rem;
+}
+.sahdow-box h3 {
+    font-size: 20px;
+}
+.text-lg-left p strong {
+    display: block;
+}
+.founder-slide {
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
 .headText h1 {
-font-size: 2rem;
+font-size: 2rem;text-align: center;
 }
 p.webclas {
 padding: 0px;
