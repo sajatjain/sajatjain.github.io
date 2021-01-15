@@ -17,7 +17,16 @@ color: #04c5aa;
 max-width: 1180px;
 }
 
-
+.headText span {
+    color: #04c5aa;
+    text-decoration: underline;
+}
+.maxSize {    width: 100%;
+    display: block;
+    font-size: 10px;
+    color: #595959;
+    margin-top: -20px;
+    margin-bottom: 15px;}
 .header-stick {
 background: #FFF;
 min-height: 90px;
@@ -440,6 +449,10 @@ ul.custom-nav li.nav-item {
 
 
 @media screen and (max-width:767px) and (min-width:320px) {
+    h3.ourTeam {
+    text-align: center;
+    padding-left: 0;
+}
     .navbar {
     padding: 1.6rem 1rem;
 }
