@@ -80,7 +80,7 @@ padding:140px 0 120px;
 background: #f2fbfe url(../images/headBg.jpg) no-repeat center bottom;
 }
 .headText {
-margin:3rem auto;
+margin:0rem auto 6rem;
 text-align: center;
 padding-left: 1.5rem;
 padding-right: 1.5rem;
@@ -119,8 +119,9 @@ max-width: 220px
 width: 100%;
 }
 .vectorBg {
-max-width:540px;
-margin: 0 auto;
+    max-width: 645px;
+    margin-right: 20px;
+    margin-top: -40px;
 }
 
 .btn-custom {
@@ -407,9 +408,7 @@ button.close:focus {
 
 @media only screen and (min-width: 768px) {
 
-.vectorBg {
-    margin-right: 0;
-}
+
 .headText {
     text-align: left;
     padding-left: 0;
@@ -419,7 +418,7 @@ button.close:focus {
     letter-spacing: 10px;
 }
 .header-img {
-    max-width:25%;
+    max-width:24%;
 }
 ul.custom-nav li.nav-item {
     margin: 0 .3em;
@@ -487,7 +486,12 @@ padding-left: 0;
 .popupMain h2 strong {
     font-size: 35px;
 }
-
+.header-part {
+    padding: 140px 0 170px;
+}
+.vectorBg {
+    margin-right: 0;
+}
 
 }
 
@@ -507,7 +511,20 @@ padding-left: 0;
 margin: -3.5rem auto;
 }
 .header-part {
-padding: 100px 0 140px;
+padding:100px 0 235px;
+}
+.sahdow-box.sahdowheight {
+    min-height: 405px;
+}
+.sahdow-box {
+    min-height: 440px;
+}
+h3.ourTeam {
+    text-align: center;
+}
+.btn-custom {
+    height: 40px;
+    line-height: 44px;
 }
 
 
