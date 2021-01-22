@@ -20,7 +20,7 @@ max-width: 1180px;
 .headText span {
     color: #04c5aa;
     /* text-decoration: underline; */
-    font-weight: bold;
+   /* font-weight: bold; */
     font-style: italic;
 }
 .maxSize {    width: 100%;
