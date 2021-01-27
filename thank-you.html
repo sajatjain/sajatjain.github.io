@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <meta name="generator" content="LaunchPod Labs builds products: from paper to market. We help build successful MVPs. LaunchPod invests in innovative ventures & provides deep product development expertise to enterprises." />
+        <title>Thank You!</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;600;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/fontstyle.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <style>
+            body {
+                background: #fff;
+            }
+            g {
+                stroke: #04c5aa;
+            }
+            .path {
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 0;
+            }
+
+            .path .circle {
+                -webkit-animation: dash 2s ease-in-out;
+                animation: dash 2s ease-in-out;
+            }
+
+            .path .line {
+                stroke-dashoffset: 1000;
+                -webkit-animation: dash 4.4s ease-in-out forwards;
+                animation: dash 4.4s ease-in-out forwards;
+            }
+
+            .path .check {
+                stroke-dasharray: 700;
+                animation-delay: 0;
+                -webkit-animation: dash-check 1s ease-in-out forwards;
+                animation: dash-check 1s ease-in-out forwards;
+            }
+            .container.thankyou h3 {
+                font-size: 30px;
+                margin-top: 40px;
+                color: #323a5a;
+                font-weight: 600;
+            }
+            .container.thankyou {
+                width: 330px;
+                height: 220px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                top: -35%;
+            }
+            .gotoback a {
+                border: 1px solid #04c5aa;
+                text-transform: uppercase;
+                color: #04c5aa;
+                font-size: 12px;
+                padding: 10px 20px 6px 20px;
+                border-radius: 4px; margin-top: 30px;
+                display: inline-block;
+            }
+            .gotoback a:hover {
+                color: #323a5a;
+                text-decoration: none;
+            }
+            a {
+                color: #04c5aa;
+                cursor: pointer;
+            }
+            footer {
+                font-size: 13px;
+                width: 100%;
+                text-align: center;
+                position: fixed;
+                bottom: 0px;
+                border-top: 1px solid #eee;
+                padding-top: 20px;
+                font-family: 'Gordita';
+                font-weight: 300;
+            }
+
+            @-webkit-keyframes dash {
+                0% {
+                    stroke-dashoffset: 1000;
+                }
+
+                100% {
+                    stroke-dashoffset: 0;
+                }
+            }
+
+            @keyframes dash {
+                0% {
+                    stroke-dashoffset: 1000;
+                }
+
+                100% {
+                    stroke-dashoffset: 0;
+                }
+            }
+
+            @-webkit-keyframes dash-check {
+                from {
+                    stroke-dashoffset: 700;
+                }
+                to {
+                    stroke-dashoffset: 1400;
+                }
+            }
+
+            @keyframes dash-check {
+                from {
+                    stroke-dashoffset: 700;
+                }
+                to {
+                    stroke-dashoffset: 1400;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="basic-sec">
+                <div class="container thankyou">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <svg width="70px" height="70px" class="success" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g transform="translate(-1233.000000, -901.000000)" stroke="#34D183" stroke-width="4">
+                                        <g transform="translate(1237.000000, 905.000000)" class="path circle">
+                                            <circle class="path circle" cx="32" cy="32" r="32"></circle>
+                                            <polyline class="path check" points="48 22.7096774 26.6484279 42.3225806 15.483871 31.5557034"></polyline>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h3>Thank You!</h3>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="gotoback">
+                                <p>The form was submitted successfully.</p>
+                                <a class="back" onclick="goBack();">Back to Previous Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>© 2021 LaunchPod Labs.</p>
+            </footer>
+        </main>       
+    </body>
+</html>
