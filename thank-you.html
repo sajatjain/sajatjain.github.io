@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -160,9 +161,12 @@
             </footer>
         </main>
         <script>
-        	function goBack() {
-        		window.location.replace(window.location.origin);
-        	}
-		</script>
+            function goBack() {
+                window.history.go(-1);
+            }
+            if(window.location.search == "") {
+                window.location.replace(window.location.origin);
+            }
+        </script>
     </body>
 </html>
