@@ -52,6 +52,10 @@
             function goBack() {
                 window.location.replace(window.location.origin);
             }
+            if(window.location.search == "") {
+                window.location.replace(window.location.origin);
+            }
+            //setTimeout(function () { window.location.replace(window.location.origin); }, 0);
         </script>
     </body>
 </html>
