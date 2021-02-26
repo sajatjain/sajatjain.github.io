@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <meta name="generator" content="LaunchPod Labs builds products: from paper to market. We help build successful MVPs. LaunchPod invests in innovative ventures & provides deep product development expertise to enterprises." />
+        <title>404 Error</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;600;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/fontstyle.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <style>
+        h1 {font-size: 65px;color: #67cfb8;font-weight: bold;}
+        .container.errorpage {width: 100%;height: 220px;position: absolute;left: 0;right: 0;bottom: 0;margin: auto;top: -40%;}
+        .errorpage img {margin-bottom: 50px;}
+        .gotoback a {border: 1px solid #04c5aa;text-transform: uppercase;color: #04c5aa;font-size: 12px;padding: 10px 20px 6px 20px;border-radius: 4px;margin-top: 30px;display: inline-block;}
+        .gotoback a:hover {color: #323a5a;text-decoration: none;}
+        a {color: #04c5aa;cursor: pointer;}
+        footer {font-size: 14px;width: 100%;text-align: center;position: fixed;bottom: 0px;border-top: 1px solid #eee;padding-top: 20px;font-family: "Gordita";font-weight: 300;background: #2b3249;color: #fff !important;}
+        .basic-sec p {font-size: 16px;line-height: 12px;font-weight: 300;}
+        .gotoback i {font-size: 14px; color: #858585;font-weight: 300; font-style: normal;display: block;}
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="basic-sec">
+                <div class="container errorpage">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="images/404Img.png" />
+                            <h1>404</h1>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="gotoback">
+                                <p>Oops! Something’s missing...</p>
+                                <i>Sorry but the page you are looking for does not exist.</i>
+                                <a class="back" onclick="goBack();">Back to Home Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>© 2021 LaunchPod Labs.</p>
+            </footer>
+        </main>
+        <script>
+            function goBack() {
+                window.location.replace(window.location.origin);
+            }
+        </script>
+    </body>
+</html>
