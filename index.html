@@ -34,6 +34,7 @@
    <link rel="stylesheet" type="text/css" href="css/fontstyle.css">
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <script src="https://www.google.com/recaptcha/api.js?render=6Ld8fs4aAAAAAFmJ1RMj6Jyf4CB7jFiI9CFUDLhS"></script>
+   <style>.grecaptcha-badge { visibility: hidden; } </style>
 </head>
 
 <body>
@@ -339,20 +340,24 @@
                   <form action="https://getform.io/f/a9a49d3c-e04d-415f-8dbd-c12ce99cc2e0" method="POST"
                      enctype="multipart/form-data" class="contactFm">
                      <div class="form-group border-bottom">
-                        <label>Name<sup>*</sup></label>
+                        <label>Name</label>
                         <input type="text" name="name" class="form-control custom-inp" required>
                      </div>
                      <div class="form-group border-bottom">
-                        <label>Email<sup>*</sup></label>
+                        <label>Email</label>
                         <input type="email" name="email" class="form-control custom-inp" required>
                      </div>
                      <div class="form-group border-bottom">
-                        <label>Message<sup>*</sup></label>
+                        <label>Message</label>
                         <textarea type="text" name="message" class="form-control custom-inp" rows="3"
                            required></textarea>
                      </div>
                      <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                      <button type="submit" class="btn btn-custom">Send</button>
+                     <p class="text-center text-md-left text-white"></p>
+                     <p class="text-center text-md-left text-white">This site is protected by reCAPTCHA and the Google 
+                     <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and 
+                     <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</p>
                   </form>
                </div>
                <!-- End -->
