@@ -1,0 +1,1253 @@
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #000;
+    background: #fff;
+    overflow-x: hidden;
+    font-weight: 300; overflow-y: hidden;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1200px;
+}
+
+header {
+        background: #F1FBFE;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    width: 100%;
+}
+
+li.nav-item a {
+    font-family: Helvetica Neue LT Pro;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #303030 !important;
+    margin-top: 4px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+li.nav-item a:hover {
+    color: #45C3E8 !Important;
+}
+
+li.nav-item a.active {
+    color: #45C3E8 !important;
+}
+
+a.nav-link.contactus {
+    border: 1px solid #45C3E8;
+    color: #45C3E8 !important;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 36px;
+    width: 125px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+div#navbarCollapse {
+    margin-left: 46%;
+}
+
+.header-part {
+    background: #F1FBFE;
+    min-height: 500px;
+    position: relative;
+}
+
+.banerText {
+    font-family: Geomanist;
+    font-weight: bold;
+}
+
+.banerText {
+    font-family: Geomanist;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 165px;
+}
+
+.banerText span {
+    font-size: 60px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border-top: none;
+    border-bottom: none;
+    border: 1px solid #2CA7D6;
+    border-radius: 15px;
+}
+
+.carousel-indicators {
+    bottom: -110px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: #2CA7D6;
+}
+
+.footer {
+    background: #555555;
+    text-align: center;
+    height: 60px;
+    line-height: 63px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.servicesBox {
+    margin: 90px auto;
+}
+
+.servicesBox ul {
+    margin: 0;
+    padding: 0;
+}
+
+.servicesBox ul li {
+    float: left;
+}
+
+.servicesBox ul li:last-child {
+    margin-right: 0px;
+}
+
+.servicesBox ul li {
+    list-style: none;
+    width: 170px;
+    height: 170px;
+    margin-right: 60px;
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    box-shadow: 0px 5px 20px #f0f0f0;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #3D3D3D;
+}
+
+.servicesBox ul li:hover {
+    border: 1px solid #2CA7D6;
+}
+
+.servicesBox ul {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 150px;
+}
+
+.servicesBox ul li h2 {
+    color: #3BBAE2;
+    font-size: 30px;
+    font-family: Helvetica Neue LT Pro;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.servicesBox {
+    margin: 90px auto;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.heading h2 {
+    color: #F8A432;
+    font-weight: 800;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 40px;
+}
+
+.heading p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #3D3D3D;
+    line-height: 22px;
+}
+
+.heading {
+    text-align: center;
+    padding: 0 15%;
+}
+
+.founders ul li {
+    list-style: none;
+    width: 318px;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.founders ul li img {
+    transition: transform .5s ease;
+}
+
+.founders ul li img:hover {
+    transform: scale(1.1);
+}
+
+.founders ul {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 110px;
+}
+
+li.imgBoxwithCont.blueBg {
+    background: #BAE6F8;
+}
+
+li.imgBoxwithCont {
+    padding: 20px;
+    text-align: center;
+}
+
+li.imgBoxwithCont h3 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 22px;
+    font-weight: 800;
+    color: #3D3D3D;
+}
+
+li.imgBoxwithCont p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+li.imgBoxwithCont img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.yellowBg {
+    background: #FCE0B9;
+}
+
+.greenBg {
+    background: #DBEEC0;
+}
+
+.purpleBg {
+    background: #FBC0EC;
+}
+
+.redBg {
+    background: #F8B3B5;
+}
+
+.greyBg {
+    background: #C2E5DE;
+}
+
+.founders {
+    margin-top: 15px;
+}
+
+.bannerBg {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bannerBg img {
+    width: 100%;
+}
+
+.PortfolioList ul li {
+    list-style: none;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 10px 20px;
+}
+
+.PortfolioList ul li:last-child {
+    border: none;
+}
+
+.PortfolioList ul {
+    padding: 0px;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    max-width: 900px;
+    margin: 0px auto;
+    background: #fff;
+    box-shadow: 0 10px 40px #f1f1f1;
+}
+
+.PortfolioList ul li span {
+    width: 160px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3D3D3D;
+}
+
+.PortfolioList ul li span:last-child {
+    width: 520px;
+}
+
+.portfolioBg {
+    background: #f7fbfd url("../images/portfolioBg.jpg") no-repeat left top;
+    padding-top: 270px;
+    background-size: 100% 300px;
+    padding-bottom: 90px;
+}
+
+.filter {
+    max-width: 200px;
+    margin: 15px auto;
+}
+
+.filter select {
+    font-size: 14px;
+}
+
+.PortfolioList ul li strong {
+    font-weight: 600;
+    width: 150px;
+    display: inline-block;
+    color: #3D3D3D;
+    font-size: 13px;
+}
+
+
+/* Apply Now */
+
+.modal-dialog.modal-dialog-centered {
+    width: 100%;
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    margin: 0px;
+}
+
+.applynow {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+div#exampleModalCenter {
+    padding-right: 0px !important;
+}
+
+.applynowFom {
+    background: #40B3E5;
+    height: 100%;
+    padding: 60px 70px 30px;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+a.closedBtn {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+
+.applynowFom h2 span {
+    display: block;
+    font-weight: 600;
+    color: #000;
+}
+
+.applynowFom h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.applynowFom p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.applynowFom input.form-control {
+    background: none;
+    border: 1px solid #9FD8F1;
+    height: 45px;
+    color: #fff;
+    font-weight: 500;
+    font-family: Helvetica Neue LT Pro;
+    padding-top: 12px;
+}
+
+.applynowFom input::placeholder,
+.applynowFom textarea::placeholder {
+    color: #9FD8F1;
+}
+
+.applynowFom label {
+    font-size: 13px;
+    color: #fff;
+}
+
+.applynowFom textarea.form-control {
+    background: none;
+    border: 1px solid #9FD8F1;
+    font-weight: 500;
+    font-family: Helvetica Neue LT Pro;
+}
+
+button.sendVision {
+    background: #056C98;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-family: Helvetica Neue LT Pro;
+    padding: 15px 30px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    border: 1px dashed #9FD8F1;
+    border-radius: 3px;
+    height: 80px;
+}
+
+.btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 115px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.upload-btn-wrapper button {
+    background: none;
+    border: none;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.collapse.show a:hover {
+    text-decoration: none;
+}
+
+.collapse.show a {
+    color: #333;
+    text-decoration: underline;
+}
+.modal {
+    position: fixed;
+    left: 15px;
+}
+
+.leftFaq {
+    padding: 60px 70px 30px;
+}
+
+.leftFaq h1 {
+    font-size: 40px;
+    font-family: 'Helvetica Neue';
+    font-weight: 600;
+    color: #FBA123;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.card-header a {
+    font-size: 17px;
+    color: #3D3D3D;
+    font-weight: 600;
+}
+
+.card-body {
+    font-size: 17px;
+}
+
+.card-header {
+    background: none;
+}
+
+.card-header a img {
+    float: right;
+    margin-top: 7px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #ccc;
+}
+
+.card-header {
+    padding: 15px 0px;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 0 0 30px 0;
+    margin-top: -5px;
+}
+
+.helpLIst h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #40B3E5;
+    font-family: Helvetica Neue LT Pro;
+}
+
+.helpLIst {
+    margin-top: 50px;
+}
+
+.helpLIst ul li p {
+    margin-left: 25px;
+    font-size: 15px;
+    color: #3D3D3D;
+}
+
+.helpLIst ul li strong {
+    font-size: 16px;
+    font-family: 'Helvetica Neue LT Pro';
+    color: #3D3D3D;
+}
+
+.helpLIst ul li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.helpLIst ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.helpLIst ul li img {
+    margin-right: 5px;
+}
+
+.helpLIst ul li a {
+    text-decoration: underline;
+    color: #3D3D3D;
+    font-size: 15px;
+}
+
+.closedBtnm {
+    display: none;
+}
+
+.closedBtn {
+    display: block;
+}
+.mobileLink { display: none; }
+
+.PortfolioList ul li strong a {
+    color: #3D3D3D;
+}
+.founderRow.landingPage {
+    margin-top: 155px;padding-bottom: 70px;
+}
+ul#founders {
+    width: 237px;
+    margin: 0px auto;
+    border-bottom: none;
+}
+ul#founders li a {
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 40px; font-family:Helvetica Neue LT Pro ; font-weight: 500; font-size: 14px;
+    line-height: 28px;
+}
+ul#founders li a.active { background: #45C3E8; border: none; color: #fff !important; border: 1px solid #45C3E8;   }
+
+ul#founderList {
+    border-bottom: none;
+}
+ul#founderList li {
+    width: 390px;position: relative;margin-bottom: 20px;
+}
+
+ul#founderList li a img {
+ width: 100%;
+}
+ul#founderList li a {
+    padding-top: 15px;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+ul#founderList li a h4 span {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    color: #808080;
+    font-family: 'Helvetica Neue';
+}
+ul#founderList li a h4 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-transform: initial;
+}
+span.linkdenCls {
+    position: absolute;
+    bottom: 24px;
+    right: 15px;
+}
+span.linkdenCls a {
+    border: none !important;
+}
+
+span.linkdenCls a img {
+    width: 20px !important;
+}
+ul#founderList li a.active { border: 1px solid #45C3E8;    border-bottom: 5px solid; }
+
+div#profile ul li a {
+    border: none;
+    padding: 0px 10px;font-family:Helvetica Neue LT Pro ; font-weight: 500; font-size: 14px; background:none;
+}
+div#profile ul {
+   margin: 0px auto;
+    width: 305px;
+    border: none;
+    margin-top: 30px;
+}
+.netwList ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100% !important; float: left;
+}
+.netwList ul li:last-child {
+    margin-right: 0px !important;
+}
+.netwList ul li {
+    list-style: none;
+    float: left;
+    width: 195px;
+    margin-right: 30px;text-align: center;    position: relative;padding-bottom: 30px;
+}
+.netwList {
+    margin: 0px auto;
+    width: 1095px;
+}
+.netwList ul li img {
+    width: 100%;padding-bottom: 10px;
+}
+.netwList ul li a img {
+    width: 20px;
+    position: absolute;
+    bottom: 62px;
+    right: 10px;
+}
+.netwList ul li span {
+font-family:Helvetica Neue LT Pro ; font-weight: 500; font-size: 14px;}
+.nav.nav-tabs.acdemyTabs {
+    width: 432px !important;
+    margin: 0px auto;
+}
+.academyRow {
+    margin-top: 25px;
+}
+
+.academyRow span {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 0 6%;font-family:Helvetica Neue LT Pro ; font-weight: 500; margin-bottom: 15px; margin-top: 30px;
+}
+
+.academyRow p {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 0 6%;
+}
+
+a.applynowBtn {
+    background: #056C98;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-family: Helvetica Neue LT Pro;
+    padding:13px 30px 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin: 0px auto;
+    width: 150px;
+    display: block;
+}
+a.applynowBtn:hover {text-decoration: none;}
+.pptRow {
+    background: #FCFDFE;
+    margin: 70px auto;
+    padding: 70px 0;
+    text-align: center;
+}
+.pptRow h2 {
+    color: #F8A432;
+    font-weight: 800;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 40px; margin-bottom: 15px;
+}
+.academyRow h2, .academyRow h3 {color: #F8A432;
+    font-weight: 800;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 40px; margin-bottom: 15px;text-align: center;}
+
+
+ h3.fintechHead {color: #F8A432;
+    color: #F8A432;
+    font-weight: 800;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 40px;
+    margin-bottom: -15px;
+    text-align: center;
+    margin-top: 50px;}
+
+
+.academyRow .leftFaq {
+    padding: 10px 70px 0px;
+}
+
+.PortfolioBtn a {
+    background: #F6841F;
+    border: none;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Helvetica Neue LT Pro;
+}
+
+.PortfolioBtn a:hover { text-decoration: none; }
+.PortfolioBtn {
+    text-align: center;
+    padding-top: 30px;
+}
+.userlist {
+    background: #FCFDFE;
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;margin-bottom: -70px;
+}
+
+h2.fintechHead {
+    margin-top: 70px;
+}
+.founderM { display:none; }
+.founderW { display: block; }
+
+.netwList ul li:nth-child(5), .netwList ul li:nth-child(10), .netwList ul li:nth-child(15), .netwList ul li:nth-child(20), .netwList ul li:nth-child(25), .netwList ul li:nth-child(30),
+ .netwList ul li:nth-child(35), .netwList ul li:nth-child(40), .netwList ul li:nth-child(45), .netwList ul li:nth-child(50), .netwList ul li:nth-child(55), .netwList ul li:nth-child(60), .netwList ul li:nth-child(65) {
+  margin-right: 0px;
+}
+.academyRow img {
+    width: 100%;
+}
+.card-header img {
+    width: auto;
+}
+.pptRow img {
+    width: 70%;
+}
+
+.netwList ul li img {
+    transition: transform .5s ease;
+}
+
+.netwList ul li img:hover {
+    transform: scale(1.02);
+}
+
+.founderPic img {
+    width: 100%;
+}
+a.linkdn3 img {
+        width: auto;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+}
+.founderPic {
+    position: relative;
+}
+.founderlisttop {
+    margin-top: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+}
+.founderlisttop:last-child { border-bottom: none; }
+
+.founderCont h4 span {
+    font-size: 13px;
+    display: block;
+    font-weight: lighter;
+    font-family:Helvetica Neue LT Pro;
+    color: #595959;
+}
+
+.founderCont h4 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Helvetica Neue LT Pro;
+}
+
+.academyRow .card-body {
+    font-size: 15px;
+}
+.academyRow .card-header a {
+    font-size: 15px !important;
+}
+
+.academyRow b {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.pptRow.mgnBtm {
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Css  */
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .logoApply img {
+    width: 300px;
+}
+a.closedBtnm img {
+    width: auto;
+}
+ul#founders li a {
+    font-size: 13px;
+    padding: 8px 10px;
+}
+.nav.nav-tabs.acdemyTabs {
+    width: 375px !important;
+}
+
+
+
+.nameM { font-size: 10px !important;}
+
+
+    .netwList ul li:nth-child(5), .netwList ul li:nth-child(10), .netwList ul li:nth-child(15), .netwList ul li:nth-child(20), .netwList ul li:nth-child(25), .netwList ul li:nth-child(30), .netwList ul li:nth-child(35), .netwList ul li:nth-child(40) {
+  margin-right: 20px;
+}
+.netwList ul li span {
+    font-size: 11px;
+}
+.netwList {
+    width: 100%;
+}
+.netwList ul li {
+    width: 29%;
+    margin-right: 20px;
+    min-height: 220px;
+    text-align: center;
+    display: inline-grid;
+    line-height: 15px;
+}
+.netwList ul li a img {
+    bottom: 70px;
+}
+.netwList ul li:nth-child(3),
+.netwList ul li:nth-child(6),
+.netwList ul li:nth-child(9),
+.netwList ul li:nth-child(12),
+.netwList ul li:nth-child(15),
+.netwList ul li:nth-child(18),
+.netwList ul li:nth-child(21),
+.netwList ul li:nth-child(24),
+.netwList ul li:nth-child(27),
+.netwList ul li:nth-child(30),
+.netwList ul li:nth-child(33),
+.netwList ul li:nth-child(36),
+.netwList ul li:nth-child(39),
+.netwList ul li:nth-child(42),
+.netwList ul li:nth-child(45),
+.netwList ul li:nth-child(48),
+.netwList ul li:nth-child(51) {
+    margin-right:0px;
+}
+.academyRow img {
+    width: 100%;
+}
+.academyRow h2, .academyRow h3 {
+    font-size: 26px;
+}
+.card-header img {
+    width: auto;
+}
+.academyRow .leftFaq {
+    padding: 10px;
+}
+.pptRow {
+    margin: 40px auto;
+    padding: 40px 0;
+}
+
+.userlist {
+    background: #FCFDFE;
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-bottom: -35px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+h2.fintechHead {
+    margin-top: 30px;
+}
+
+span.linkdenCls {
+    position: absolute;
+    bottom: 10px;
+    right: 1px;
+    background: #fff;
+    width: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 3px;
+}
+ul#founderList li {
+    width: 30%;margin-right: 15px;
+}
+ul#founderList li:last-child { margin-right: 0px; }
+
+ul#founderList li a { padding: 5px;margin-right:0px; }
+h4.founderM {
+    font-size: 20px;
+    margin-top:0px;
+    text-transform: initial;color: #45C3E8 !important;
+}
+h4.founderM span {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    color: #808080;
+    font-family: 'Helvetica Neue';
+}
+
+.helpLIst {
+    margin-top: 20px;
+}
+.founderM { display:block; }
+.founderW { display: none; }
+    .founders ul li {
+    height: auto;
+}
+    li.imgBox {
+    /* display: none; */
+}
+    ul.navbar-nav li:last-child { display: none; }
+    .navbar {padding: 0.5rem 0;}
+a.nav-link.contactus.mobileLink {
+        position: absolute;
+    right: 80px;
+    top: 17px;
+    height: 40px;
+    z-index: 99;padding: 9px 0;
+    width: 100px; font-family: Helvetica Neue LT Pro;
+}
+    .mobileLink { display: block; }
+
+    .closedBtn {
+        display: none;
+    }
+    a.closedBtnm {
+        position: absolute;
+        right: 35px;
+        top: 20px;
+        z-index: 99; display: block;
+    }
+    .card-header a {
+        font-size: 15px;
+    }
+    .card-body {
+        font-size: 14px;
+    }
+    .applynowFom h2,
+    .leftFaq h1 {
+        font-size: 30px;
+    }
+    .modal {
+        position: fixed;
+        left: 15px;
+        margin-left: -15px;
+        width: 100%;
+    }
+    .leftFaq,
+    .applynowFom {
+        padding: 40px 20px 20px;
+    }
+    .PortfolioList ul li strong {
+        width: 100%;
+    }
+    div#navbarCollapse {
+        margin-left: 0%;
+        z-index: 99;
+        background: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+    }
+    a.nav-link.contactus {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .banerText {
+       font-size: 19px;
+    line-height: 25px;
+    margin-top: 120px;
+    }
+    .banerText br {
+        display: none;
+    }
+    .banerText span {
+            font-size: 32px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 38px;
+    }
+    .carousel-indicators {
+        bottom: -80px;
+    }
+    .header-part {
+        min-height: 340px;
+    }
+    .PortfolioList ul li span:last-child {
+        width: 100%;
+    }
+    .portfolioBg {
+        background: #f7fbfd url(../images/portfolioBg.jpg) no-repeat left top;
+        padding-top: 100px;
+        background-size: 130% 130px;
+        padding-bottom: 40px;
+    }
+    .founders ul {
+        width: 320px;
+        margin: 0px auto;
+    }
+    .heading {
+        text-align: center;
+        padding: 0 0%;
+    }
+    .PortfolioList ul li span {
+        width: 100%;
+    }
+    .servicesBox ul li:nth-child(2) {
+        margin-right: 0px;
+    }
+    .servicesBox ul li {
+        width: 45%;
+        height: 170px;
+        margin-right: 10%;
+        margin-bottom: 35px;
+    }
+    .servicesBox ul {
+        padding-left: 0;
+    }
+    .servicesBox {
+        margin: 40px auto 20px;
+    }
+    .heading p {
+        font-size: 16px;
+    }
+    .heading h2 {
+        font-size: 32px;
+    }
+
+.founderRow.landingPage {
+    margin-top: 115px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+/* iPad Css  */
+
+@media screen and (max-width:992px) and (min-width:768px) {
+
+header {
+    height: 118px;
+}
+
+.netwList ul li:nth-child(3),
+.netwList ul li:nth-child(6),
+.netwList ul li:nth-child(9),
+.netwList ul li:nth-child(12),
+.netwList ul li:nth-child(15),
+.netwList ul li:nth-child(18),
+.netwList ul li:nth-child(21),
+.netwList ul li:nth-child(24),
+.netwList ul li:nth-child(27),
+.netwList ul li:nth-child(30),
+.netwList ul li:nth-child(33),
+.netwList ul li:nth-child(36),
+.netwList ul li:nth-child(39),
+.netwList ul li:nth-child(42),
+.netwList ul li:nth-child(45),
+.netwList ul li:nth-child(48),
+.netwList ul li:nth-child(51) {
+    margin-right:0px;
+}
+
+
+
+    .netwList ul li:nth-child(5), .netwList ul li:nth-child(10), .netwList ul li:nth-child(15), .netwList ul li:nth-child(20), .netwList ul li:nth-child(25), .netwList ul li:nth-child(30), .netwList ul li:nth-child(35), .netwList ul li:nth-child(40) {
+  margin-right: 20px;
+}
+.netwList ul li span {
+    font-size: 11px;
+}
+.netwList {
+    width: 100%;
+}
+.netwList ul li {
+    width:30%;
+    margin-right: 20px;
+    min-height: 220px;
+    text-align: center;
+    display: inline-grid;
+    line-height: 15px;
+    float: none;
+}
+.netwList ul li a img {
+    bottom: 70px;
+}
+
+
+    .founders ul {
+        margin: 0px auto;
+        padding: 0px;
+        width: 636px;
+    }
+    .portfolioBg {
+        background: #f7fbfd url(../images/portfolioBg.jpg) no-repeat left top;
+        padding-top: 190px;
+        background-size: 100% 210px;
+        padding-bottom: 90px;
+        margin-top: 20px;
+    }
+    .PortfolioList ul li span:last-child {
+        width: 360px;
+    }
+    .banerText span {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .banerText {
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 190px;
+    }
+    .servicesBox ul li {
+        margin-bottom: 50px;
+    }
+    .servicesBox ul {
+        padding-left: 22%;
+    }
+    .servicesBox {
+        margin: 70px auto 30px;
+    }
+    ul.navbar-nav.custom-nav {
+        position: absolute;
+        left: 0px;
+        top: 75px;
+        z-index: 99;
+        width: 100%;
+    }
+    a.nav-link.contactus {
+        position: absolute;
+        top: -55px;
+        right: 0;
+    }
+}
+
+
+/* desktop  */
+
+@media screen and (max-width:1199px) and (min-width:993px) {}
