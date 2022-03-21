@@ -473,7 +473,6 @@ button.sendVision {
 
 .collapse.show a {
     color: #333;
-    text-decoration: underline;
 }
 .modal {
     position: fixed;
@@ -566,7 +565,6 @@ button.sendVision {
 }
 
 .helpLIst ul li a {
-    text-decoration: underline;
     color: #3D3D3D;
     font-size: 15px;
 }
