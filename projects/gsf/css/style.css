@@ -527,6 +527,10 @@ button.sendVision {
     margin-top: -5px;
 }
 
+.card-body a {
+    color: #45C3E8 !Important;
+}
+
 .helpLIst h3 {
     font-size: 22px;
     font-weight: 500;
