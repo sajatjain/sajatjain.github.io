@@ -61,7 +61,7 @@ a.nav-link.contactus {
 }
 
 div#navbarCollapse {
-    margin-left: 46%;
+    margin-left: 36%;
 }
 
 .header-part {
@@ -879,7 +879,7 @@ a.linkdn3 img {
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .logoApply img {
-    width: 300px;
+    width: 125px;
 }
 a.closedBtnm img {
     width: auto;
