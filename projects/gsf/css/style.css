@@ -877,7 +877,7 @@ a.applynowNew {
     width: 295px;
     display: block;
 }
-
+a.applynowNew:hover { text-decoration: none; background:#3fb3d5 ; }
 
 
 
