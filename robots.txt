@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /landingpage.html
+Disallow: /LE.html
+Disallow: /LE/
+Disallow: /Launch/landingpageyc.html
+Disallow: /projects/
