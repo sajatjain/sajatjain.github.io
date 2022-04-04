@@ -725,8 +725,8 @@ a.applynowBtn {
 a.applynowBtn:hover {text-decoration: none;}
 .pptRow {
     background: #FCFDFE;
-    margin: 70px auto;
-    padding: 70px 0;
+    margin: 40px auto;
+    padding: 20px 0 0;
     text-align: center;
 }
 .pptRow h2 {
@@ -863,8 +863,21 @@ a.linkdn3 img {
     margin-bottom: 10px;
 }
 
-
-
+a.applynowNew {
+    background: #45C3E8;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-family: Helvetica Neue LT Pro;
+    padding: 13px 20px 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin: 0px auto;
+    width: 295px;
+    display: block;
+}
+a.applynowNew:hover { text-decoration: none; background:#3fb3d5 ; }
 
 
 
