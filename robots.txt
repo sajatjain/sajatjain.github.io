@@ -4,3 +4,4 @@ Disallow: /LE.html
 Disallow: /LE/
 Disallow: /Launch/landingpageyc.html
 Disallow: /projects/
+Disallow: /FindTechCoFounder/
